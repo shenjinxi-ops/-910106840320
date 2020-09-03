@@ -11,6 +11,7 @@ public:
     explicit tui_piao(QWidget *parent = nullptr);
 
     void sendSlot();
+
 signals:
     void mySingal();
 public slots:

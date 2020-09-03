@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include "yu_piao_xinxi.h"
 
 class yu_piao_chaxun : public QWidget
 {
@@ -11,6 +12,10 @@ public:
     explicit yu_piao_chaxun(QWidget *parent = nullptr);
 
     void sendSlot();
+
+    void change2();
+    void dealSub2();
+
 signals:
     void mySingal();
 
@@ -18,7 +23,13 @@ signals:
 public slots:
 
 private:
-    QPushButton b;
+    QPushButton c;
+    QPushButton *c1;
+    QPushButton *c2;
+    QPushButton *c3;
+
+
+    yu_piao_xinxi w;
 
 };
 
