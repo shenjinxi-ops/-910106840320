@@ -15,11 +15,16 @@ public:
     Widget(QWidget *parent = 0);
     ~Widget();
 
-    void change1();
-    void dealSub();
+    void change11();
+    void change12();
+    void change13();
+
+    void dealSub11();
+    void dealSub12();
+    void dealSub13();
 
 private:
-    QPushButton b1;
+    QPushButton *b1;
     QPushButton *b2;
     QPushButton *b3;
     QPushButton *b4;

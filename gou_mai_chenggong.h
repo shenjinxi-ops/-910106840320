@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QLabel>
 
 class gou_mai_chenggong : public QWidget
 {
@@ -18,6 +19,7 @@ public slots:
 
 private:
     QPushButton d;
+    QLabel d2;
 };
 
 #endif // GOU_MAI_CHENGGONG_H

@@ -6,23 +6,29 @@ yu_piao_chaxun::yu_piao_chaxun(QWidget *parent) : QWidget(parent)
     c.setParent(this);
     c.setText("返回");
 
-    connect(&c,&QPushButton::clicked,this,&yu_piao_chaxun::sendSlot);
+    connect(&c,&QPushButton::clicked,this,&yu_piao_chaxun::sendSlot11);
 
     resize(500,400);
-
 
     c1=new QPushButton(this);
     c1->setText("查询");
     c1->move(200,200);
 
-    c2=new QPushButton(this);
+    c2=new QLabel(this);
     c2->setText("起点站");
-    c2->move(50,50);
+    c2->move(80,80);
 
-    c3=new QPushButton(this);
+    c3=new QLabel(this);
     c3->setText("终点站");
-    c3->move(50,80);
+    c3->move(80,120);
 
+    c4=new QTextBrowser(this);
+    c4->resize(200,25);
+    c4->move(150,80);
+
+    c5=new QTextBrowser(this);
+    c5->resize(200,25);
+    c5->move(150,120);
 
 
 
@@ -35,9 +41,9 @@ yu_piao_chaxun::yu_piao_chaxun(QWidget *parent) : QWidget(parent)
 
 }
 
-void yu_piao_chaxun::sendSlot()
+void yu_piao_chaxun::sendSlot11()
 {
-    emit mySingal();
+    emit mySingal11();
 }
 
 //下级窗口的

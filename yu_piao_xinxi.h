@@ -3,6 +3,9 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QLabel>
+#include <QTextBrowser>
+#include "gou_mai_chenggong.h"
 
 class yu_piao_xinxi : public QWidget
 {
@@ -21,9 +24,13 @@ public slots:
 
 private:
     QPushButton c;
-    QPushButton *c1;
-    QPushButton *c2;
+    QLabel *c1;
+    QLabel *c2;
     QPushButton *c3;
+    QTextBrowser *c4;
+    QTextBrowser *c5;
+
+    gou_mai_chenggong w;
 };
 
 #endif // YU_PIAO_XINXI_H

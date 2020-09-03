@@ -30,7 +30,8 @@ SOURCES += \
     che_piao_xinxichaxun.cpp \
     tui_piao.cpp \
     yu_piao_xinxi.cpp \
-    gou_mai_chenggong.cpp
+    gou_mai_chenggong.cpp \
+    xin_xi_chaxun.cpp
 
 HEADERS += \
         widget.h \
@@ -38,4 +39,5 @@ HEADERS += \
     che_piao_xinxichaxun.h \
     tui_piao.h \
     yu_piao_xinxi.h \
-    gou_mai_chenggong.h
+    gou_mai_chenggong.h \
+    xin_xi_chaxun.h

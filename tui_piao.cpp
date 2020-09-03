@@ -6,12 +6,12 @@ tui_piao::tui_piao(QWidget *parent) : QWidget(parent)
     b.setParent(this);
     b.setText("返回");
 
-    connect(&b,&QPushButton::clicked,this,&tui_piao::sendSlot);
+    connect(&b,&QPushButton::clicked,this,&tui_piao::sendSlot13);
 
     resize(500,400);
 }
 
-void tui_piao::sendSlot()
+void tui_piao::sendSlot13()
 {
-    emit mySingal();
+    emit mySingal13();
 }

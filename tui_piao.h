@@ -10,10 +10,12 @@ class tui_piao : public QWidget
 public:
     explicit tui_piao(QWidget *parent = nullptr);
 
-    void sendSlot();
+    void sendSlot13();
+
 
 signals:
-    void mySingal();
+    void mySingal13();
+
 public slots:
 
 private:
