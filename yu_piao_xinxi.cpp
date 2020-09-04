@@ -20,7 +20,7 @@ yu_piao_xinxi::yu_piao_xinxi(QWidget *parent) : QWidget(parent)
 
     c3=new QPushButton(this);
     c3->setText("购买");
-    c3->move(200,200);
+    c3->move(200,300);
 
     c4=new QTextBrowser(this);
     c4->resize(200,25);
@@ -29,6 +29,10 @@ yu_piao_xinxi::yu_piao_xinxi(QWidget *parent) : QWidget(parent)
     c5=new QTextBrowser(this);
     c5->resize(200,25);
     c5->move(150,120);
+
+    c6=new QTextBrowser(this);
+    c6->resize(200,100);
+    c6->move(150,150);
 
     //下级窗口
     connect(c3,&QPushButton::released,this,&yu_piao_xinxi::change3);

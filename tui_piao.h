@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QTextBrowser>
+#include "tui_piao_jiemian.h"
 
 class tui_piao : public QWidget
 {
@@ -11,6 +13,10 @@ public:
     explicit tui_piao(QWidget *parent = nullptr);
 
     void sendSlot13();
+    void mySlot2();
+
+    void change5();
+    void dealSub5();
 
 
 signals:
@@ -20,6 +26,13 @@ public slots:
 
 private:
     QPushButton b;
+    QPushButton *b1;
+    QPushButton *b2;
+    QPushButton *b3;
+    QTextBrowser *b4;
+
+    tui_piao_jiemian w;
+
 };
 
 #endif // TUI_PIAO_H

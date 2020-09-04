@@ -16,5 +16,4 @@ gou_mai_chenggong::gou_mai_chenggong(QWidget *parent) : QWidget(parent)
 
     connect(&d,&QPushButton::released,this,&gou_mai_chenggong::close);
 
-
 }

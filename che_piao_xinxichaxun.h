@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QTextBrowser>
 #include "xin_xi_chaxun.h"
 
 class che_piao_xinxichaxun : public QWidget
@@ -29,6 +30,7 @@ private:
     QPushButton *b1;
     QPushButton *b2;
     QPushButton *b3;
+    QTextBrowser *b4;
 
     xin_xi_chaxun w;
 

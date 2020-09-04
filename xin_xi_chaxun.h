@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QTextBrowser>
 
 class xin_xi_chaxun : public QWidget
 {
@@ -19,6 +20,8 @@ public slots:
 
 private:
     QPushButton e;
+    QPushButton *e1;
+    QTextBrowser *e2;
 
 };
 

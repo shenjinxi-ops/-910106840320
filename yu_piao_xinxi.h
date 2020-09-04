@@ -29,6 +29,7 @@ private:
     QPushButton *c3;
     QTextBrowser *c4;
     QTextBrowser *c5;
+    QTextBrowser *c6;
 
     gou_mai_chenggong w;
 };
