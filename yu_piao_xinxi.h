@@ -5,6 +5,7 @@
 #include <QPushButton>
 #include <QLabel>
 #include <QTextBrowser>
+#include <QLineEdit>
 #include "gou_mai_chenggong.h"
 
 class yu_piao_xinxi : public QWidget
@@ -27,8 +28,8 @@ private:
     QLabel *c1;
     QLabel *c2;
     QPushButton *c3;
-    QTextBrowser *c4;
-    QTextBrowser *c5;
+    QLineEdit *c4;
+    QLineEdit *c5;
     QTextBrowser *c6;
 
     gou_mai_chenggong w;

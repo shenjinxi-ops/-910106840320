@@ -47,13 +47,11 @@ void Widget::change11()
     w.show();
     this->hide();
 }
-
 void Widget::change12()
 {
     w1.show();
     this->hide();
 }
-
 void Widget::change13()
 {
     w2.show();
@@ -66,13 +64,11 @@ void Widget::dealSub11()
     w.hide();
     this->show();
 }
-
 void Widget::dealSub12()
 {
     w1.hide();
     this->show();
 }
-
 void Widget::dealSub13()
 {
     w2.hide();

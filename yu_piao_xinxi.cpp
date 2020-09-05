@@ -22,11 +22,11 @@ yu_piao_xinxi::yu_piao_xinxi(QWidget *parent) : QWidget(parent)
     c3->setText("购买");
     c3->move(200,300);
 
-    c4=new QTextBrowser(this);
+    c4=new QLineEdit(this);
     c4->resize(200,25);
     c4->move(150,80);
 
-    c5=new QTextBrowser(this);
+    c5=new QLineEdit(this);
     c5->resize(200,25);
     c5->move(150,120);
 

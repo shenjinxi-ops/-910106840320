@@ -22,7 +22,7 @@ tui_piao::tui_piao(QWidget *parent) : QWidget(parent)
     b3->setText("查询");
     b3->move(400,300);
 
-    b4=new QTextBrowser(this);
+    b4=new QLineEdit(this);
     b4->resize(200,25);
     b4->move(200,80);
 

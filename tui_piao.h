@@ -3,7 +3,7 @@
 
 #include <QWidget>
 #include <QPushButton>
-#include <QTextBrowser>
+#include <QLineEdit>
 #include "tui_piao_jiemian.h"
 
 class tui_piao : public QWidget
@@ -29,7 +29,7 @@ private:
     QPushButton *b1;
     QPushButton *b2;
     QPushButton *b3;
-    QTextBrowser *b4;
+    QLineEdit *b4;
 
     tui_piao_jiemian w;
 

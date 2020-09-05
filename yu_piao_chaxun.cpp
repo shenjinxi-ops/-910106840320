@@ -22,13 +22,18 @@ yu_piao_chaxun::yu_piao_chaxun(QWidget *parent) : QWidget(parent)
     c3->setText("终点站");
     c3->move(80,120);
 
-    c4=new QTextBrowser(this);
+
+    c4=new QLineEdit(this);
+    c4->setPlaceholderText("请输入1-10之间的数字");
     c4->resize(200,25);
     c4->move(150,80);
 
-    c5=new QTextBrowser(this);
+    c5=new QLineEdit(this);
+    c5->setPlaceholderText("请输入1-10之间的数字");
     c5->resize(200,25);
     c5->move(150,120);
+
+
 
 
 

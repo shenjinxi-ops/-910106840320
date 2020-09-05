@@ -13,7 +13,6 @@ public:
 
     void sendSlot3();
 
-
 signals:
 
     void mySingal3();
@@ -22,6 +21,7 @@ public slots:
 private:
     QPushButton d;
     QLabel d2;
+
 };
 
 #endif // TUI_PIAO_CHENGGONG_H

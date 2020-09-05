@@ -16,3 +16,4 @@ tui_piao_chenggong::tui_piao_chenggong(QWidget *parent) : QWidget(parent)
 
     connect(&d,&QPushButton::released,this,&tui_piao_chenggong::close);
 }
+
