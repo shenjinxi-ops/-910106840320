@@ -20,6 +20,7 @@ public slots:
 
 private:
     QPushButton d;
+    QPushButton d1;
     QLabel d2;
 
 };

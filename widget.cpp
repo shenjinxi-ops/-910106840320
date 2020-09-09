@@ -1,5 +1,4 @@
 #include "widget.h"
-#include <QPushButton>
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
@@ -32,7 +31,7 @@ Widget::Widget(QWidget *parent)
     connect(b3,&QPushButton::released,this,&Widget::change13); //跳转到“退票”界面
 
 
-    connect(&w,yu_piao_chaxun::mySingal11,this,&Widget::dealSub11);
+    connect(&w0,yu_piao_chaxun::mySingal11,this,&Widget::dealSub11);
 
     connect(&w1,che_piao_xinxichaxun::mySingal12,this,&Widget::dealSub12);
 
@@ -40,11 +39,13 @@ Widget::Widget(QWidget *parent)
 
     resize(500,400);
 
+
+
 }
 
 void Widget::change11()
 {
-    w.show();
+    w0.show();
     this->hide();
 }
 void Widget::change12()
@@ -61,7 +62,7 @@ void Widget::change13()
 
 void Widget::dealSub11()
 {
-    w.hide();
+    w0.hide();
     this->show();
 }
 void Widget::dealSub12()

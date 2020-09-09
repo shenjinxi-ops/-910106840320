@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QString>
+
 #include "yu_piao_chaxun.h"
 #include "che_piao_xinxichaxun.h"
 #include "tui_piao.h"
@@ -29,10 +31,14 @@ private:
     QPushButton *b3;
     QPushButton *b4;
 
-    yu_piao_chaxun w;
+    yu_piao_chaxun w0;
     che_piao_xinxichaxun w1;
     tui_piao w2;
 
+
+
+
 };
+
 
 #endif // WIDGET_H
